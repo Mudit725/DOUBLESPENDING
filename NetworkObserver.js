@@ -15,8 +15,8 @@ var initial_balance=
 global.smashingCoin.getBalanceOfAddress(address);
 //Number of Transactions for the blockchain
 var num=0;
-//Total amount to pay based on number of transactions var
-total_payment_amt= 0;
+//Total amount to pay based on number of transactions 
+var total_payment_amt= 0;
 //Array to store transaction amounts from this address
 var amts= new Array();
 for(const trans of this.pending_transactions){

@@ -1,14 +1,11 @@
-class PeerAlert
-{
-constructor(indices, cbc)
-{
-{
+class PeerAlert{
+constructor(indices, cbc){
+
 this.indices= indices;
 this.cbc= cbc;
 }
-process()
-{
-for(const v of this.indices)
+process(){
+for(const v of this.indices){
 if(v>=1){
 console.log("Disconnected block number ",v,"due to a suspected double spending attack.");
 }
